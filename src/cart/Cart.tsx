@@ -1,4 +1,3 @@
-import Button from '@mui/material/Button'
 import CartItem from '../CartItem/CartItem'
 import { CartItemType } from '../App'
 import { Wrapper } from './Cart.styles'
