@@ -36,7 +36,8 @@ const App = () => {
 
   //console.log(data)
 
-  const getTotalItems = (items: CartItemType[]) => null
+  const getTotalItems = (items: CartItemType[]) =>
+    items.reduce((accumulator: number, item) => accumulator + item.amount, 0)
 
   const handleAddToCart = (clickedItem: CartItemType) => null
 
